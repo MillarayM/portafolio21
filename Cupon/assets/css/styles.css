@@ -1,0 +1,83 @@
+/* 
+Tipografías:
+Tipografía(s):
+● Roboto (sacar desde Google Fonts )
+Weight:
+● Roboto Light (300).
+● Roboto Medium (500).
+Colores:
+● #212529
+● #707070
+● #F8F9FA o var(--light);
+● #fff o var(--white);
+● #28a745 o var(--success);
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+  color: #212529;
+  font-weight: 300;
+}
+
+nav {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+nav img {
+  width: auto;
+  height: 53px;
+}
+
+h4 {
+    color: #212529
+}
+
+
+h5 {
+  font-size: 16 px;
+  color: #707070;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 13 px;
+  color: #707070;
+  font-weight: 300;
+}
+
+#numgris1 {
+  font-size: 19px;
+  color: #707070;
+  font-weight: 300;
+  padding-top: 3%;
+  text-align: right;
+}
+
+#Numverde {
+  color: #28a745;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#formulario {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  background-color: #28a745;
+  text-align: center;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+footer {
+  text-align: center;
+  padding: 10%;
+}
+
+footer img {
+  width: auto;
+  height: 53px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+

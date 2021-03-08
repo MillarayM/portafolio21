@@ -1,0 +1,116 @@
+/* colores 
+#000000
+#ffffff
+#1e1a13
+#1E1A13
+
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    }
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 50px;
+   }
+
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 40px;
+   }
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 24px;
+   }
+
+
+p {
+    text-align: left;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+   }
+
+
+/* texto e imagen */
+
+.txtimg {
+   
+    color : #ffffff ;
+    padding : 50px ;
+    margin: 0 auto;
+}
+
+.txtiguana {
+width : 25% ;
+vertical-align : middle;
+padding : 0px 75px 10px 75px;
+}
+
+.imgiguana {
+   vertical-align: middle;
+   padding : 0px 75px 10px 0px;
+}
+
+.txtiguana, .imgiguana {
+    display: inline-block;
+
+}
+
+/*Caracteristicas */
+
+#c1, #c2, #c3 {
+    padding: 70px 100px 75px 100px;
+}
+
+#desc-section {
+    background-color: #1E1A13;
+    padding: 20px 0px 0px 0px;
+}
+
+.enlinea {
+    display: inline-block;
+}
+
+.caract p {
+    font-size: 30px;
+}
+
+.caract i {
+    font-size: 50px;
+}
+
+
+
+
+/*fotografias*/
+
+#f1, #f2, #f3 {
+padding: 73px 20px 70px 20px;
+
+}
+.iguana {
+    display: inline-block;
+}
+
+
+/*footer */
+footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 50px;
+}
+

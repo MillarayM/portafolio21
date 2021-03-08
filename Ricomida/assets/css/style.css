@@ -1,0 +1,87 @@
+/*
+font-family: 'Cabin', sans-serif;
+font-family: 'Lobster', cursive;
+*/
+
+body {
+    margin-top: 150px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+
+    }
+
+h1 {
+    text-align: center;
+}
+
+#titulopc {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    padding: 5%;
+    font-size: 50px;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    color:#dc3545;
+
+
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+}
+
+#carruselok {
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#carrusel22 {
+    text-align: center;
+}
+
+#formulariotext1 {
+    font-size: 30px;
+    text-align: right;
+    padding-top:3%;
+}
+
+#formulariotext2 {
+    text-align: left;
+
+}
+
+#spanformato {
+    text-align: center;
+}
+
+
+
+.rojo{
+    color: red;
+}
+
+#indicador {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;   
+
+}
+
+#indicador1 {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;   
+
+}
