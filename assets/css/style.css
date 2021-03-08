@@ -41,7 +41,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     font-family:'Raleway', sans-serif;
     font-weight: 400;
@@ -58,8 +57,6 @@ text-shadow: 2px 3px 3px #707070;
 padding: 6.125rem 6.125rem;
 }
 
-
-
 /* clases usos general */
 
 
@@ -73,8 +70,6 @@ hr {
     font-weight: 700;
 }
 
-
-
 /* navbar */
 .navbar {
     background-color: #17a2b8;
@@ -86,7 +81,6 @@ hr {
 }
 
 /* header */
-
 #nombreheader {
     padding-top: 400px;
 }
