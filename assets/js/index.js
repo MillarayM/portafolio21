@@ -53,5 +53,18 @@ $("#titulotrabajos1").click(function(){
   })
 
 
-
+  $(document).ready(function () {
+    $('#arribaBoton').click(function () {
+        $('body, html').animate({
+            scrollTop: '0px'
+        }, 200);
+    });
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+            $('#arribaBoton').slideDown(200);
+        } else {
+            $('#arribaBoton').slideUp(200);
+        }
+    });
+});
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,9 +14,19 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    
 </head>
 
 <body>
+
+
+    <div id="arribaBoton">
+        <i class="fas fa-arrow-alt-circle-up"></i></a>
+    </div>
+    <div id="inicioPagina"></div>
+    <div id="topNavbar" class="m-3"> </div>
+    
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a id="iconoletram" class="navbar-brand" href="#">M</a>
@@ -26,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#trabajos">Trabajos</a>
+                        <a class="nav-link active" href="#experiencia">Trabajos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#contacto">Contacto</a>
@@ -35,6 +46,10 @@
             </div>
         </div>
     </nav>
+
+
+
+
 
     <header id="inicio" class="hero-section">
         <div class="">
@@ -56,8 +71,33 @@
     <section id="experiencia" class="container">
         <div class="row pt-2">
             <div class="col">
-                <h3 class="tcentrado p-2">Mis Desafíos Realizados</h3>
+                <h3 class="tcentrado p-2">Mis Proyectos Realizados</h3>
                 <div class="row">
+                    <!-- Inicio tarjeta 1-->
+                    <div class="p-5 col-12 col-md-6 col-lg-4">
+                        <div class="card m-auto w-100" style="width: 18rem">
+                            <img src="assets/img/mibarrio.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h2 id="titulotrabajos1" class="card-text">Mi Barrio</h2>
+                                <h5 class="card-text">
+                                    Weekend Code Hackathon. 48 horas para crear una APP web. Realizado con HTML5, CSS3,
+                                    Bootstrap, bootswatch, JavaScript,
+                                    jQuery y firebase.
+                                </h5>
+                                <br>
+                                <p class="card-text contenido1">
+                                    Realizado en equipo utilizando GitHub. <br>
+                                    <a href="https://www.linkedin.com/in/pablo-morales-pinto/"><i
+                                            class="fab fa-linkedin"></i>Pablo Morales</a>
+                                    <a href="https://www.linkedin.com/in/pedrom-rivasd/"><i
+                                            class="fab fa-linkedin"></i>Pedro Rivas</a>
+                                </p>
+                            </div>
+                            <a href="https://millaraym.github.io/mibarrio/" button type="button" class="btn btn-info"
+                                data-toggle="tooltip" data-placement="top" title="Clic para visitar">Click para visitar
+                                Mi Barrio</a>
+                        </div>
+                    </div>
                     <!-- Inicio tarjeta 1-->
                     <div class="p-5 col-12 col-md-6 col-lg-4">
                         <div class="card m-auto w-100" style="width: 18rem">
@@ -72,12 +112,11 @@
                                     “Quien se atreve a enseñar, nunca debe dejar de aprender.” John Cotton Dana
                                 </p>
                             </div>
-                            <a href="pokemon/index.html" button type="button" class="btn btn-info"
-                                data-toggle="tooltip" data-placement="top" title="Clic para visitar">Click para visitar
+                            <a href="pokemon/index.html" button type="button" class="btn btn-info" data-toggle="tooltip"
+                                data-placement="top" title="Clic para visitar">Click para visitar
                                 Pokémon</a>
                         </div>
                     </div>
-
                     <!-- Inicio tarjeta 1-->
                     <div class="p-5 col-12 col-md-6 col-lg-4">
                         <div class="card m-auto w-100" style="width: 18rem">
@@ -99,7 +138,6 @@
                                 Suricata</a>
                         </div>
                     </div>
-
                     <!-- Inicio tarjeta 5-->
                     <div class="p-5 col-12 col-md-6 col-lg-4">
                         <div class="card m-auto w-100" style="width: 18rem">
@@ -120,10 +158,6 @@
                                 Ricomida</a>
                         </div>
                     </div>
-
-
-
-
                     <!-- Inicio tarjeta 4-->
                     <div class="p-5 col-12 col-md-6 col-lg-4">
                         <div class="card m-auto w-100" style="width: 18rem">
@@ -254,6 +288,12 @@
         </div>
     </footer>
 
+
+
+
+
+    
+    
     <!-- fin footer-->
 
     <!-- JS, Popper.js,jQuery, mi script -->
@@ -266,6 +306,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+        <script src="assets/js/jquery.js"></script>
     <script src="assets/js/index.js"></script>
 </body>
 
